@@ -1,6 +1,6 @@
 # Contatos
 
-Agenda pessoal autenticada com cadastro, login, logout e contatos com nome e e-mail. Mantém o escopo funcional de [NiroKz/Contatos-Autenticavel](https://github.com/NiroKz/Contatos-Autenticavel), com implementação própria de frontend e backend.
+Agenda pessoal autenticada com cadastro, login, logout e contatos com nome e e-mail.
 
 ## Funcionalidades
 
