@@ -1,6 +1,18 @@
-# Contatos
+# Contatos — Atividade acadêmica
 
-Agenda pessoal autenticada com cadastro, login, logout e contatos com nome e e-mail.
+Aplicação web desenvolvida como **atividade da faculdade**, com foco na prática de desenvolvimento full stack, autenticação e persistência de dados. O sistema oferece uma agenda pessoal com cadastro, login e gerenciamento de contatos por usuário.
+
+## Contexto acadêmico
+
+O projeto utiliza um domínio de negócio enxuto — uma agenda de nomes e e-mails — para concentrar o aprendizado na integração entre interface, API e banco de dados. O escopo funcional é delimitado, enquanto a implementação contempla segurança de acesso, isolamento de dados, testes de integração e implantação em nuvem.
+
+## Objetivos de aprendizagem
+
+- **Desenvolvimento full stack:** integrar uma interface React a uma API Express e a um banco PostgreSQL.
+- **Autenticação e autorização:** implementar sessões, proteção de rotas e acesso restrito aos dados de cada usuário.
+- **Segurança da aplicação:** trabalhar com armazenamento seguro de senhas, validação de entradas e consultas parametrizadas.
+- **Verificação de comportamento:** testar autenticação, operações de contatos e isolamento entre contas.
+- **Implantação e configuração:** publicar a aplicação no Render, utilizando variáveis de ambiente, configuração versionada e verificação de saúde do serviço.
 
 ## Funcionalidades
 
@@ -73,4 +85,4 @@ Todas as rotas usam prefixo `/api`. Escritas recebem JSON. Os endpoints de conta
 | DELETE | `/contatos/:id`       | Excluir contato próprio          |
 | GET    | `/health`             | Prontidão do servidor e do banco |
 
-Recuperação de senha por e-mail, importação de contatos e compartilhamento não fazem parte deste escopo.
+O escopo desta atividade acadêmica concentra-se em autenticação e gerenciamento individual de contatos. Recuperação de senha por e-mail, importação de contatos e compartilhamento são possibilidades de evolução, fora da entrega atual.
