@@ -134,6 +134,7 @@ export default function AuthPage({ register = false, onLogin }) {
             <span className="password-field">
               <input
                 name="senha"
+                aria-label="Senha"
                 type={showPassword ? "text" : "password"}
                 autoComplete={register ? "new-password" : "current-password"}
                 placeholder={
